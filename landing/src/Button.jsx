@@ -8,7 +8,11 @@ function Button (){
             border: "0cap",
             cursor: "pointer",
         } 
-        return(<button style={styles}>Click me</button>)
+
+    const handleClick = () => console.log("ouch");
+    const handleClick2 = (name) => console.log(`${name} ouch`);
+    
+    return(<button onClick={handleClick} style={styles}>Click me</button>)
     }
     
     export default Button

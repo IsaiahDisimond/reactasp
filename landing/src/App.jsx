@@ -20,7 +20,6 @@ function App() {
                   {id: 5, name:"potato",calories:120},
                   {id: 6, name:"celerey",calories:25}];
 
-
   return (
     <>
       <Header />
